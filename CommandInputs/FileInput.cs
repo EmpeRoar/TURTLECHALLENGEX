@@ -31,9 +31,9 @@ namespace CommandInputs
 
                 foreach (var input in inputSequence)
                     Turtle.ProcessCommand(input,
-                                        (message) => Console.WriteLine(message),
-                                        () => { },
-                                        (command) => command.IsValidPlaceCommand());
+                                          (message) => Console.WriteLine(message),
+                                          () => { },
+                                          (command) => command.IsValidPlaceCommand());
             }
         }
 
